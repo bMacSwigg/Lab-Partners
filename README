@@ -1,0 +1,34 @@
+----CONTAINS----
+Source - The source code (.java files)
+Testr.class - The main class
+Pair.class - The class for individual pair objects
+MakePairs.class - The class which does the actual pairing of students
+RUNME.bat - The batch file which handles running the code
+
+----INSTRUCTIONS----
+1. Ensure you have the latest version of Java installed, and that it is contained in the folder "C:\Program Files (x86)\Java\jre7\bin". If not, contact the creator (Brian McSwiggen), or edit RUNME.bat to add the correct folder to the Path variable (the folder to put in is the folder which contains javac.exe and java.exe, NOT the general JRE/JDK folder)
+
+2. To begin, simply run RUNME.bat (by double-clicking on it). It will pop up a command prompt window.
+
+3. Put in the names of the students in the class, with a new line in-between each one. When you have given the names of all students in the class, put in Q (again on a new line). It does not matter if your class has an odd number of people, it will simply assign a different person to be unpaired each time.
+
+EX:
+Brian
+Jack
+Lauren
+Grant
+Q
+
+4. The program will spit out the maximum possible number of lab pairings, which is to say one less than the number of students. I.E., if you have 20 students, the output will cover enough for 19 labs. At that point it is not possible to pick any more, as each student will have been with each other student once. It is easiest if you start repeating from 
+there.
+
+If there is an odd number of students in the class, the program will pretend there is one more, and will make as many pairings as there are students. I.E., with 19 students, there will still be 19 labs-worth, because the program acts as if there were 20 students.
+
+IMPORTANT: these pairings ARE NOT SAVED and WILL CHANGE from one run of the program to the next. It is HIGHLY advised that you yourself copy these down somewhere, as they will no longer be accessible after the program is closed, and running the program again would ruin the goal of each student partnering with each other student once.
+
+----CREDITS----
+Programming: Brian M
+Programming Advice: Jack F
+Algorithm Advice: Grant S
+Algorithm Advice: Andy L
+Algorithm Advice: Patrick M
